@@ -1,0 +1,50 @@
+.first-part{
+    display: flex;    
+    align-items: center;
+    justify-content: center; 
+    margin: 65px;
+
+
+}
+.first-part .text{
+/*     margin-right: 65px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-part .image{
+/*     margin-left: 65px; */
+    margin: auto;
+}
+
+.main #button:hover{
+    padding: 6px 22px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+}
+.second-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.second-part .image{
+/*     background-color: brown; */
+    padding-right: 300px;
+
+
+}
+.second-part .text{
+/*     background-color: chartreuse; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 50px;/* questo mi serve per capire come spostare i due bl;occhi  */
+    padding-left: 100px;
+}
+.text span{
+    font-weight: 500;
+}

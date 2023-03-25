@@ -1,0 +1,29 @@
+nav{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #Dee4e7;
+    padding: 15PX;
+    border-radius: 5px;
+}
+
+
+nav.dark{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #404040;
+    padding: 15PX;
+    border-radius: 5px;
+    color: #121212;
+    color: #B3B3B3;
+}
+body.dark{
+    background-color:#121212 ;
+    color: #fFFFFF;
+}
+p.dark{
+    color: #B3B3B3;
+}
+body{
+    max-width: 60%;
+    margin: 4% auto;
+}
